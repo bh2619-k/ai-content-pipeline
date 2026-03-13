@@ -7,8 +7,6 @@
 
 An automated **AI-powered content generation system built with Python** that creates scripts, videos, thumbnails and social media posts automatically.
 
-Sistema automatizado de **generación de contenido con Inteligencia Artificial desarrollado en Python**, capaz de crear guiones, videos, miniaturas y publicaciones para redes sociales de forma automática.
-
 ---
 
 # 🚀 Features / Características
@@ -17,15 +15,11 @@ Sistema automatizado de **generación de contenido con Inteligencia Artificial d
 
 Automatically generates trending topics for content creation.
 
-Genera automáticamente ideas de contenido basadas en tendencias.
-
 ---
 
 ### ✍️ Script Generator
 
 Creates scripts for videos and social media posts using AI.
-
-Genera guiones automáticamente para videos y contenido digital.
 
 ---
 
@@ -33,15 +27,11 @@ Genera guiones automáticamente para videos y contenido digital.
 
 Translates generated content into different languages.
 
-Permite traducir el contenido generado a diferentes idiomas.
-
 ---
 
 ### 🎵 Background Music Generator
 
 Creates background music for videos automatically.
-
-Genera música de fondo automáticamente para los videos.
 
 ---
 
@@ -53,19 +43,11 @@ Builds videos automatically using:
 • Background music
 • Visual elements
 
-Crea videos automáticamente usando:
-
-• Guiones generados
-• Música de fondo
-• Recursos visuales
-
 ---
 
 ### 🖼 Thumbnail Generator
 
 Creates thumbnails optimized for social media platforms.
-
-Genera miniaturas optimizadas para redes sociales.
 
 ---
 
@@ -77,19 +59,11 @@ Automatically generates captions and posts for:
 • LinkedIn
 • Short video platforms
 
-Genera publicaciones automáticas para:
-
-• Instagram
-• LinkedIn
-• Plataformas de videos cortos
-
 ---
 
 ### ☁️ Cloudinary Upload
 
 Uploads generated videos to Cloudinary for hosting and distribution.
-
-Sube automáticamente los videos generados a Cloudinary.
 
 ---
 
@@ -97,15 +71,11 @@ Sube automáticamente los videos generados a Cloudinary.
 
 Allows the system to run automatically using scheduled tasks.
 
-Permite ejecutar el sistema automáticamente mediante tareas programadas.
-
 ---
 
 # 🧠 AI Content Generation Pipeline
 
 The system automatically generates content through a modular AI pipeline.
-
-El sistema genera contenido automáticamente mediante un pipeline modular de IA.
 
 ```mermaid
 flowchart TD
@@ -129,10 +99,10 @@ H --> I[Social Media Ready Content]
 
 ---
 
-# 🏗 Project Structure / Estructura del Proyecto
+# 🏗 Project Structure
 
 ```
-ai_content_system
+ai-content-pipeline
 │
 ├── main.py
 ├── config.py
@@ -161,16 +131,16 @@ ai_content_system
 
 ---
 
-# ⚙️ Installation / Instalación
+# ⚙️ Installation
 
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/ai_content_system.git
+git clone https://github.com/YOUR_USERNAME/ai-content-pipeline.git
 ```
 
 ```
-cd ai_content_system
+cd ai-content-pipeline
 ```
 
 ---
@@ -187,8 +157,6 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root directory.
 
-Crea un archivo `.env` en la carpeta principal.
-
 ```
 OPENAI_API_KEY=your_openai_key
 CLOUDINARY_API_KEY=your_cloudinary_key
@@ -197,7 +165,7 @@ CLOUDINARY_SECRET=your_cloudinary_secret
 
 ---
 
-# ▶️ Run the System / Ejecutar el sistema
+# ▶️ Run the System
 
 ```
 python main.py
@@ -213,19 +181,9 @@ The system will automatically:
 6️⃣ Generate thumbnail
 7️⃣ Upload video
 
-El sistema automáticamente:
-
-1️⃣ Genera el tema
-2️⃣ Crea el guion
-3️⃣ Traduce el contenido
-4️⃣ Genera música
-5️⃣ Crea el video
-6️⃣ Genera miniatura
-7️⃣ Sube el video
-
 ---
 
-# 📦 Technologies Used / Tecnologías Utilizadas
+# 📦 Technologies Used
 
 • Python
 • OpenAI API
@@ -237,7 +195,7 @@ El sistema automáticamente:
 
 ---
 
-# 🎯 Use Cases / Casos de Uso
+# 🎯 Use Cases
 
 This system can be used for:
 
@@ -248,17 +206,9 @@ This system can be used for:
 • Content creators
 • Automated social media pages
 
-Este sistema puede utilizarse para:
-
-• Automatización de contenido
-• Automatización de YouTube
-• Automatización de TikTok
-• Reels de Instagram
-• Automatización de marketing
-
 ---
 
-# 🔮 Future Improvements / Mejoras Futuras
+# 🔮 Future Improvements
 
 Possible future improvements:
 
@@ -268,28 +218,8 @@ Possible future improvements:
 • Multi-language video support
 • Advanced video editing
 
-Posibles mejoras futuras:
-
-• Subida automática a YouTube
-• Integración con TikTok API
-• Generación de voz con IA
-• Soporte multi idioma
-• Edición avanzada de video
-
----
-
-# 👨‍💻 Author / Autor
-
-Developed by **Yassir Technologic**
-
-AI developer focused on automation systems, AI tools and content generation.
-
-GitHub
-https://github.com/yassirtecnologic
-
 ---
 
 # ⭐ Support
 
 If you find this project useful, consider giving it a **star ⭐ on GitHub**.
-
